@@ -22,4 +22,11 @@ describe('roman_numerals') do
   end
   it('takes a 22 and outputs the corresponding roman numeral compiled') do
     roman_numerals(22).should(eq("XXII"))
+  end
+end
+
+describe('numerals_to_digits') do
+  it('takes a single numeral and outputs an integer') do
+    numerals_to_digits("I").should(eq(1))
+  end
 end
