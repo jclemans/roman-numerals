@@ -20,4 +20,6 @@ describe('roman_numerals') do
   it('takes a 9 and outputs the corresponding roman numeral compiled') do
     roman_numerals(9).should(eq("IX"))
   end
+  it('takes a 22 and outputs the corresponding roman numeral compiled') do
+    roman_numerals(22).should(eq("XXII"))
 end
