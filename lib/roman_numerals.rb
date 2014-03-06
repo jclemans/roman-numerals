@@ -28,4 +28,4 @@ def numify(string)
   running_total
 end
 
-puts numify("MMCCXXIX")
+puts numify("MCMXXIII")
